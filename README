@@ -1,0 +1,10 @@
+= TGCPP =
+
+A humble CPP port of TuxGuitar ( http://tuxguitar.herac.com.ar/ ), 1.1 maybe...
+Only gtp and Song Model were ported.
+
+License: GNU LGPL ( See http://tuxguitar.herac.com.ar/license.html )
+Since most Java codes were copied & pasted, I decided to set same license, LGPL.
+
+It uses memory pool, named DAS (dump allocation system) to make memory alloc/dealloc simple.
+You may want to redesign it :)
