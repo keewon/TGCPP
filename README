@@ -1,5 +1,4 @@
 = TGCPP =
-
 A humble CPP port of TuxGuitar ( http://tuxguitar.herac.com.ar/ ), 1.1 maybe...
 Only gtp and Song Model were ported.
 
@@ -8,3 +7,7 @@ Since most Java codes were copied & pasted, I decided to set same license, LGPL.
 
 It uses memory pool, named DAS (dump allocation system) to make memory alloc/dealloc simple.
 You may want to redesign it :)
+
+= What it does =
+Parse Guitar Pro files (*.gtp, *.gp3, *.gp4, *.gp5) and push it to TGSong.
+See main.cpp to know hot to use.
